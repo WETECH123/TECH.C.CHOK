@@ -38,13 +38,15 @@ public class Click : MonoBehaviour
     }
 
     void BombAttack()
-    {
+    {  
+        /*    
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         GameObject Bomb_1 = Instantiate(Bomb)as GameObject;
         Rigidbody rb = Bomb_1.GetComponent<Rigidbody>();
         Vector3 worldDir = ray.direction;
         Bomb_1.GetComponent<Bomb_Controller>().Shoot(worldDir.normalized * 5000);
         //rb.AddForce(transform.forward * )
+        */
     }
     void Update()
     {
