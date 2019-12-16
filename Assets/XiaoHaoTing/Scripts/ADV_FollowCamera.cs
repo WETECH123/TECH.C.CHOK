@@ -27,7 +27,7 @@ public class ADV_FollowCamera : MonoBehaviour
     {
 
         //playerの情報を取得
-        this.player = GameObject.Find("Player");
+        this.player = GameObject.Find("RedRobot");
 
         // MainCamera(自分自身)とplayerとの相対距離を求める
         offset = transform.position - player.transform.position;
