@@ -32,7 +32,7 @@ public class ADV_Player : MonoBehaviour
             //Destroy(gameObject);
         }
         wavepointIndex++;
-        //target = ADV_Waypoints.points[wavepointIndex];
+       target = ADV_Waypoints.points[wavepointIndex];
     }
    
 }
